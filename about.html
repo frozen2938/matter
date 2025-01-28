@@ -9,10 +9,26 @@
 
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <script src="bootstrap/js/bootstrap.min.js"></script>
+  <style>
+    table,th,td{
+      border: 5px solid black;
+      border-collapse: collapse;
+      font-size: 20px;
+    }
+    th{
+      padding-left: 20px;
+    }
+    marquee{
+      font-family:"Calibri";
+    }
+  </style>
 
 </head>
 <body>
 
+<font size="20" color="green">
+<marquee class="h1 behavior="" direction="" bgcolor="yellow">THIS IS MY FIRST BOOTSTRAP PRACTICAL LESSON</marquee>
+</font>
 <h1 class="text-warning text-center">About Matter Hospital</h1>
 
 <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium animi corporis cupiditate doloremque dolores fugiat id iusto minima molestiae molestias, nihil perspiciatis quisquam? Aperiam blanditiis dolore facilis, labore magni veniam.</span><span>At dolores, harum incidunt iusto quaerat quis tempora. Ad aspernatur beatae commodi culpa doloremque ducimus esse, id illo impedit iure maxime minima, porro quas qui quod rerum sint sunt voluptate!</span><span>Ab amet animi culpa deserunt dolores doloribus ducimus error expedita explicabo impedit, in incidunt iusto laudantium minus obcaecati quaerat recusandae reiciendis rem sed sequi tempore veniam voluptate voluptatibus. Exercitationem, necessitatibus?</span></p>
@@ -67,6 +83,48 @@
     <td>Ebola</td>
   </tr>
 </table>
+<br><br>
+<table align="center" width="400" height="100" cellpadding="-2">
+  <tr>
+    <th><u>ID</u></th>
+    <th><u>Name</u></th>
+    <th><u>Subject</u></th>
+    <th><u>Marks</u></th>
+  </tr>
+  <tr>
+     <th rowspan="3">1</th>
+    <th rowspan="3">David</th>
+    <th>Maths</th>
+    <th>80</th>
+  </tr>
+  <tr>
+    <th>Physics</th>
+    <th>90</th>
+  </tr>
+  <tr>
+     <th>Computers</th>
+    <th>70</th>
+
+  </tr>
+  <tr>
+     <th rowspan="3">2</th>
+    <th rowspan="3">Alex</th>
+    <th>Maths</th>
+    <th>80</th>
+  </tr>
+  <tr>
+     <th>Physics</th>
+    <th>70</th>
+
+  </tr>
+  <tr>
+     <th>Computers</th>
+    <th>90</th>
+
+  </tr>
+</table>
+<br><br><br>
+<br><br>
 
 </body>
 </html>
